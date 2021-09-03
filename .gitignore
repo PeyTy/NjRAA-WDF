@@ -1,2 +1,4 @@
 examples
-.vs
+kmdf/.vs
+kmdf/Debug
+kmdf/x64
