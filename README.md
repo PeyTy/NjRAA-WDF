@@ -1,14 +1,19 @@
 # NjRAA-WDF
 
+`[nee-jee-ray]`
+
 What I'm doing here is a GPU driver for Windows 10 as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
 
 #### Aim
 
-To support GCN 1.0+ GPUs.
+To support AMD GCN 1.0+ GPUs. And Intel/Nvidia ones that conform to
+[Resource binding Tier 3 and Resource heap Tier 2](https://en.wikipedia.org/wiki/Feature_levels_in_Direct3D#Support_matrix)).
 
 #### Supported GPUs
 
 - [ ] **`AMD Radeon R7 200 Series`** `PCI\VEN_1002&DEV_6610&REV_00`
+
+Later GCN/RDNA GPUs will reuse huge parts of GCN 1.0 code.
 
 #### Step by step
 
