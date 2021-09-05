@@ -7,7 +7,7 @@ What I'm doing here is a GPU driver for Windows 10 as a prototype for future gra
 #### Aim
 
 To support AMD GCN 1.0+ GPUs. And Intel/Nvidia ones that conform to
-[Resource binding Tier 3 and Resource heap Tier 2](https://en.wikipedia.org/wiki/Feature_levels_in_Direct3D#Support_matrix)).
+[Resource binding Tier 3 and Resource heap Tier 2](https://en.wikipedia.org/wiki/Feature_levels_in_Direct3D#Support_matrix).
 
 #### Supported GPUs
 
