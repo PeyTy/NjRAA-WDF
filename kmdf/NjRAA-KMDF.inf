@@ -80,7 +80,7 @@ KmdfLibraryVersion = $KMDFVERSION$
 [Strings]
 SPSVCINST_ASSOCSERVICE= 0x00000002
 ManufacturerName="PeyTy" ;TODO: Replace with your manufacturer name
-ClassName="Samples" ; TODO: edit ClassName
+ClassName="NjRAASamples" ; TODO: edit ClassName
 DiskName = "NjRAA-KMDF Installation Disk"
 NjRAA-KMDF.DeviceDesc = "NjRAA-KMDF Device"
 NjRAA-KMDF.SVCDESC = "NjRAA-KMDF Service"
