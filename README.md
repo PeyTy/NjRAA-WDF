@@ -2,7 +2,7 @@
 
 `[nee-jee-ray]`
 
-What I'm doing here is a GPU driver for Windows 10 as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
+What I'm doing here is a GPU driver for Windows 10 and Linux as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
 
 #### Aim
 
