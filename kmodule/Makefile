@@ -1,7 +1,7 @@
 BINARY		:= njraa
 KERNEL		:= /lib/modules/$(shell uname -r)/build
 ARCH		:= x86
-C_FLAGS		:= -Wall
+C_FLAGS		:= -Wall -Werror-implicit-function-declaration -Werror -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -mtune=generic -mno-red-zone
 KMOD_DIR	:= $(shell pwd)
 TARGET_PATH := /lib/modules/$(shell uname -r)/kernel/drivers/char
 
