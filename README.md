@@ -4,6 +4,8 @@
 
 What I'm doing here is a GPU driver for Linux as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
 
+![NjRAA Logo](njraa.png?raw=true)
+
 #### Aim
 
 To support AMD GCN 1.0+ GPUs. And Intel/Nvidia ones that conform to
