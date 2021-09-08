@@ -11,6 +11,8 @@ What I'm doing here is a GPU driver for Linux as a prototype for future graphics
 To support AMD GCN 1.0+ GPUs. And Intel/Nvidia ones that conform to
 [Resource binding Tier 3 and Resource heap Tier 2](https://en.wikipedia.org/wiki/Feature_levels_in_Direct3D#Support_matrix).
 
+This project is a part of future Driver Reusability Initiative (to be announced).
+
 #### Supported GPUs
 
 - [ ] [**`AMD Radeon R7 200 Series`**](https://www.techpowerup.com/gpu-specs/radeon-r7-250.c2459) `PCI\VEN_1002&DEV_6610&REV_00` **`Oland GFX6 (gfx601)`**
