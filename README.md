@@ -1,4 +1,4 @@
-# NjRAA-WDF
+# NjRAA Work-in-progress Driver Foundation
 
 `[nee-jee-ray]`
 
@@ -16,7 +16,10 @@ To support AMD GCN 1.0+ GPUs. And Intel/Nvidia ones that conform to
 
 Later GCN/RDNA GPUs will reuse huge parts of GCN 1.0 code.
 
-
+- [ ] [**`Intel(R) HD Graphics 500`**](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Apollo_Lake) `PCI\VEN_8086&DEV_5A85&REV_0B` **`Gen. 9 (Skylake)`**
+- [ ] [**`Intel(R) UHD Graphics 630`**](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Coffee_Lake_Refresh_/_Whiskey_Lake_/_Comet_Lake) `PCI\VEN_8086&DEV_TBA&REV_TBA` **`Gen. 9.5 (Kaby Lake)`**
+- [ ] [**`Intel(R) UHD Graphics 750`**](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Twelfth_generation_(Gen12)) `PCI\VEN_8086&DEV_TBA&REV_TBA` **`Gen. 12 (Rocket Lake-S)`**
+- [ ] [**`Intel(R) Iris(R) Xe Graphics`**](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Twelfth_generation_(Gen12)) `PCI\VEN_8086&DEV_TBA&REV_TBA` **`G7 Gen. 12 (Tiger Lake-U)`**
 
 #### Step by step
 
