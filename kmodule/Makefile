@@ -1,11 +1,11 @@
-BINARY		:= test_pci_module
+BINARY		:= njraa
 KERNEL		:= /lib/modules/$(shell uname -r)/build
 ARCH		:= x86
 C_FLAGS		:= -Wall
 KMOD_DIR	:= $(shell pwd)
 TARGET_PATH := /lib/modules/$(shell uname -r)/kernel/drivers/char
 
-OBJECTS	:= test_pci.o
+OBJECTS	:= njraa.o
 
 ccflags-y += $(C_FLAGS)
 
