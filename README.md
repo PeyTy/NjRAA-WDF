@@ -2,7 +2,7 @@
 
 `[nee-jee-ray]`
 
-What I'm doing here is a GPU driver for Windows 10 and Linux as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
+What I'm doing here is a GPU driver for Linux as a prototype for future graphics stack of the [@GreenteaOS](https://github.com/GreenteaOS)
 
 #### Aim
 
@@ -24,15 +24,13 @@ Later GCN/RDNA GPUs will reuse huge parts of GCN 1.0 code.
 
 #### Limitations
 
-This is *not* intended to become a Windows WDDM driver.
-
 Only fullscreen applications supported, no desktop GUI!
 Use only for secondary GPU with extra screen
 (or use extra inputs and switch dynamically).
 
 #### Build
 
-Use `Release` build of `x64` target only.
+Use `make` to build `kmodule` kernel mode driver.
 
 #### License
 
