@@ -12,11 +12,8 @@ ccflags-y += $(C_FLAGS)
 
 obj-m += $(BINARY).o
 
-$(BINARY)-y := $(OBJECTS)
-
 $(BINARY).ko:
 	make -C $(KERNEL) M=$(KMOD_DIR) modules
 
-install:
-	cp $(BINARY).ko $(TARGET_PATH)
-	depmod -a
+clean:
+	make -C $(KERNEL) M=$(KMOD_DIR) clean
